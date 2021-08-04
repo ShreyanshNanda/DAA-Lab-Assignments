@@ -19,12 +19,13 @@ int main(){
             break;
         }
     }
-    if(isFound){
-        cout<<"The number is present in the array\n";
-        
-    }else{
+    if(isFound)
+    {
+        cout<<"The number is present in the array\n"; 
+    }
+    else
+    {
         cout<<"The number is not present in the array\n";
     }
-    
     return 0;
 }
